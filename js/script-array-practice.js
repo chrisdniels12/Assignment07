@@ -171,36 +171,50 @@
 
 //STEP 13
 
-let favoriteMovies = [
-    ["Train To Busan", 1],
-    ["Spider-Man: No Way Home", 2],
-    ["Thor: Ragnarok", 3],
-    ["The Invisible Man", 4],
-    ["Talk to Me", 5]
-]
+// let favoriteMovies = [
+//     ["Train To Busan", 1],
+//     ["Spider-Man: No Way Home", 2],
+//     ["Thor: Ragnarok", 3],
+//     ["The Invisible Man", 4],
+//     ["Talk to Me", 5]]
+// let movieNames = favoriteMovies
+//     .filter(item => typeof item[0] === "string")
+//     .map(item => item[0])
+// for (let film of movieNames) {
+//     console.log(film)
+// }
 
-let movieNames = favoriteMovies
-    .filter(item => typeof item[0] === "string")
-    .map(item => item[0])
-for (let film of movieNames) {
-    console.log(film)
-}
 //STEP 14
-let employees = ["ZAK", "JESSICA", "MARK", "FRED", "SALLY"]
+// let employees = ["ZAK", "JESSICA", "MARK", "FRED", "SALLY"]
 
-let showEmployee = function(arr) {
-    console.log("Employees:\n\n")
-    for (let employee of arr) {
-        console.log(employee)
-    }
-}
-showEmployee(employees)
+// let showEmployee = function(arr) {
+//     console.log("Employees:\n\n")
+//     for (let employee of arr) {
+//         console.log(employee)
+//     }
+// }
+// showEmployee(employees)
 
 //STEP 15
-function filterValues(arr) {
-    return arr.filter(value => value !== false && value !== null && value !== 0 && value !== '');
-}
-console.log(filterValues([58, '', 'abcd', true, null, false, 0]))
+// function filterValues(arr) {
+//     return arr.filter(value => value !== false && value !== null && value !== 0 && value !== '');
+// }
+// console.log(filterValues([58, '', 'abcd', true, null, false, 0]))
+
+
 //STEP 16
 
+// function getRandomItemFromArray(arr) {
+//     let randomIndex = Math.floor(Math.random() * arr.length);
+//     return arr[randomIndex];
+// }
+// let numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// console.log(getRandomItemFromArray(numberArray))
 //STEP 17
+
+// function getMax(arr) {
+//     arr.sort((a, b) => a - b)
+//     return arr[arr.length - 1 ]
+// }
+// let someArr = [1,2,34,5,1,100,5]
+// console.log(getMax(someArr))
